@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  line-height: 1.6;
+  background-color: var(--orqa-fon);
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+:root{
+  --matn-rangi: black;
+  --orqa-fon: rgba(130, 152, 238, 0.645);
+  --mb-1: 1rem;
+  --mb-2: 1.5rem;
+  --header-hight: 4rem;
+}
+.header{
+  width: calc(100%-2rem);
+  height: var(--header-hight);
+  background-color: rgba(234, 255, 0, 0.282);
+}
+.text{
+  text-decoration: double;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: var(--mb-2);
+  font-size: 1.3rem;
+}
+.phone{
+  margin-right: var(--mb-2);
+
+}
+.forma{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: var(--orqa-fon); */
+}
+.container{
+  width: calc(100%-2rem);
+  min-height: 400px;
+  background-color: var(--orqa-fon);
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.phone{
+  float: right;
+}
+.cubik{
+  width: 220px;
+  height: 150px;
+  margin: 10px;
+}
+.subtitle{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+.person{
+  margin-left: 1.2rem;
+}
+.tel{
+  margin-left: 1.2rem;
+}
+.qizil{
+  background-color: red;
+}
+.odatiy{
+  background-color: yellowgreen;
+}
+.kichi_kubik{
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin: 0 10px;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: var(--header-hight)!important;
+  background-color: black;
+  color: white;
+}
+form{
+  margin-left: 10px;
+}
+select, input{
+  width: 90%;
+  height: 40px;
+  padding: 5px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+.btn{
+  display: block;
+  width: 90%;
+  height: 40px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-weight: 900;
+  font-size: 16px;
+}
+@media screen and (max-width:500px) {
+  .cubik{
+    width: 50%;
+    /* background-color: yellow; */
+  }
+}
